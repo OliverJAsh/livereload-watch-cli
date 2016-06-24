@@ -1,0 +1,15 @@
+{
+  "name": "livereload-watch-cli",
+  "version": "0.0.1",
+  "description": "A very simple pairing of a livereload server and a watch task.",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/OliverJAsh/livereload-watch-cli.git"
+  },
+  "license": "ISC",
+  "bin": { "livereload-watch": "./bin/livereload-watch" },
+  "dependencies": {
+    "chokidar": "^1.6.0",
+    "gulp-livereload": "^3.8.1"
+  }
+}
